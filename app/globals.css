@@ -75,6 +75,7 @@ p { margin: 0; }
 .store { display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px 10px 16px; border-radius: 14px; background: var(--ink); color: var(--bg); text-decoration: none; min-width: 190px; transition: transform .15s; }
 .store:hover { transform: translateY(-2px); }
 .store svg { width: 26px; height: 26px; flex: none; }
+.store .store-mark { width: 28px; height: 28px; flex: none; border-radius: 7px; }
 .store small { display: block; font-size: .7rem; line-height: 1.1; opacity: .75; }
 .store strong { display: block; font-size: 1.1rem; line-height: 1.2; font-weight: 600; }
 .store.soon { background: transparent; color: var(--ink-2); border: 1px dashed var(--hairline); cursor: default; }

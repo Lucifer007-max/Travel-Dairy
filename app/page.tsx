@@ -500,7 +500,7 @@ const jsonLd = {
   applicationCategory: "TravelApplication",
   description: site.description,
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  installUrl: site.playStoreUrl,
+  installUrl: `${site.url}${site.apkUrl}`,
 };
 
 export default function Home() {

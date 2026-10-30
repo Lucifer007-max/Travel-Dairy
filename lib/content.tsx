@@ -66,7 +66,7 @@ export const faqs: { q: string; a: React.ReactNode }[] = [
   {
     q: "Is it on iPhone?",
     a: site.appStoreUrl
-      ? "Yes, TravelDiary is on the App Store and Google Play."
+      ? "Yes, TravelDiary is on the App Store, and Android users can download it from this site."
       : "TravelDiary is on Android today. The iPhone version is on its way — write to us and we will tell you when it lands.",
   },
   {

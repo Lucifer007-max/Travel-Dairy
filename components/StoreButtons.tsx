@@ -1,15 +1,5 @@
 import { site } from "@/lib/site";
 
-function PlayIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="#34A853" d="M3.6 1.8 13.8 12 3.6 22.2c-.4-.2-.6-.6-.6-1.1V2.9c0-.5.2-.9.6-1.1Z" />
-      <path fill="#FBBC04" d="m17.2 8.6-3.4 3.4 3.4 3.4 3.9-2.2c.8-.5.8-1.7 0-2.2l-3.9-2.4Z" />
-      <path fill="#4285F4" d="M3.6 1.8c.3-.2.8-.2 1.2 0l12.4 6.8-3.4 3.4L3.6 1.8Z" />
-      <path fill="#EA4335" d="m13.8 12 3.4 3.4-12.4 6.8c-.4.2-.9.2-1.2 0L13.8 12Z" />
-    </svg>
-  );
-}
 
 function AppleIcon() {
   return (
@@ -22,11 +12,11 @@ function AppleIcon() {
 export default function StoreButtons() {
   return (
     <div className="stores">
-      <a className="store" href={site.playStoreUrl} target="_blank" rel="noopener noreferrer">
-        <PlayIcon />
+      <a className="store" href={site.apkUrl} download>
+        <img className="store-mark" src="/app-mark.png" alt="" width={26} height={26} />
         <span>
-          <small>Get it on</small>
-          <strong>Google Play</strong>
+          <small>Download for</small>
+          <strong>Android</strong>
         </span>
       </a>
       {site.appStoreUrl ? (

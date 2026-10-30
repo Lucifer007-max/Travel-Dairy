@@ -6,8 +6,9 @@ export const site = {
   tagline: "Every trip, beautifully kept.",
   description:
     "TravelDiary turns your travel photos into simple, beautiful journals. Bring your camera roll, and every trip sorts itself into days, places and a route you can relive.",
-  email: "hello@traveldiary.app",
-  playStoreUrl: "https://play.google.com/store/apps/details?id=com.traveldiary.travel_diary",
+  email: "work.ajay713347@gmail.com",
+  // Rebuild with `flutter build apk --release` and copy to public/traveldiary.apk for each release.
+  apkUrl: "/traveldiary.apk",
   appStoreUrl: "",
   version: "0.1",
   legalUpdated: "26 October 2026",
