@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import { site } from "@/lib/site";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 // Same faces the app ships with, so headings and handwritten captions match it exactly.
 const serif = localFont({ src: "./fonts/YoungSerif-Regular.ttf", variable: "--font-serif", display: "swap" });
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#content" className="skip">
           Skip to the page
         </a>
+        <Analytics/>
         <Header />
         <main id="content">{children}</main>
         <Footer />
